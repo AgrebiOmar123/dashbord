@@ -13,6 +13,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { RouterModule } from '@angular/router';
 import { AreaComponent } from './widgets/area/area.component';
 import { HighchartsChartModule } from 'highcharts-angular';
+import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { HighchartsChartModule } from 'highcharts-angular';
     MatListModule,
     FlexLayoutModule,
     RouterModule,
-    HighchartsChartModule
+    HighchartsChartModule,
+    CanvasJSAngularChartsModule
   ],
   exports:[
     HeaderComponent,
