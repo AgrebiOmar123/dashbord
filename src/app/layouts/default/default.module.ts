@@ -13,11 +13,13 @@ import {MatTableModule } from '@angular/material/table';
 import { FlexLayoutModule } from '@angular/flex-layout'; 
 
 
+
 @NgModule({
   declarations: [
     DefaultComponent,
     DashbordComponent,
-    PostsComponent
+    PostsComponent,
+    
   ],
   imports: [
     CommonModule,
@@ -29,9 +31,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatPaginatorModule,
     MatTableModule,
     FlexLayoutModule,
-    
-    
-   
   ]
 })
 export class DefaultModule { }

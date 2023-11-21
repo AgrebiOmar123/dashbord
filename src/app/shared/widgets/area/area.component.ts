@@ -12,6 +12,7 @@ export class AreaComponent implements OnInit {
 	  title: {
 		text: "Growth of Gangnam Style on YouTube"
 	  },
+    
 	  animationEnabled: true,
 	  axisX:{      
 		interval: 10,
@@ -49,8 +50,10 @@ export class AreaComponent implements OnInit {
 		  { x: new Date(2012, 8, 26), y: 275000000},	
 		  { x: new Date(2012, 8, 28), y: 302000000, indexLabel:"300M"}	
 		]
+    
 	  }]
 	}
+  
   constructor() {}
   ngOnInit(): void {
   

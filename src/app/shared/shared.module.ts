@@ -14,6 +14,7 @@ import { RouterModule } from '@angular/router';
 import { AreaComponent } from './widgets/area/area.component';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
+import { CardsComponent } from './widgets/cards/cards.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
     HeaderComponent,
     SidebarComponent,
     FooterComponent,
-    AreaComponent
+    AreaComponent,
+    CardsComponent
   ],
   imports: [
     CommonModule,
@@ -40,7 +42,8 @@ import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
     HeaderComponent,
     SidebarComponent,
     FooterComponent,
-    AreaComponent
+    AreaComponent,
+    CardsComponent
   ]
 })
 export class SharedModule { }

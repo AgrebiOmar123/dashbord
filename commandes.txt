@@ -5,3 +5,10 @@ npm i @angular/flex-layout @angular/cdk --save		      :install angular flex layo
 ng g m layouts/default					      :Create a module pour les layouts 
 ng g c modules/dashbord					      :Create a composant pour dashbord
 ng g c shared/components/header					:Create a composant header
+
+
+
+
+
+lien 
+https://www.youtube.com/watch?v=FP7Hs8lTy1k  minutes 43:36
