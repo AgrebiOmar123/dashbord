@@ -14,6 +14,7 @@ import { RouterModule } from '@angular/router';
 import { AreaComponent } from './widgets/area/area.component';
 import { HighchartsChartModule } from 'highcharts-angular';
 
+
 @NgModule({
   declarations: [
     HeaderComponent,

@@ -7,11 +7,13 @@ import HC_exporting from 'highcharts/modules/exporting';
   styleUrls: ['./area.component.css']
 })
 export class AreaComponent implements OnInit {
-  chartOptions!: {};
+  chartOptions:{};
   @Input() data: any = [];
+
   Highcharts = Highcharts;
-  constructor() { }
+  constructor() {}
   ngOnInit(): void {
+    
     this.chartOptions = {
       chart: {
         type: 'area'
@@ -20,7 +22,7 @@ export class AreaComponent implements OnInit {
         text: 'Random DATA'
       },
       subtitle: {
-        text: 'Demo'
+        text: 'Graphic'
       },
       tooltip: {
         split: true,
@@ -34,7 +36,6 @@ export class AreaComponent implements OnInit {
       },
       series: this.data
     };
-
     HC_exporting(Highcharts);
 
     setTimeout(() => {
