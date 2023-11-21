@@ -11,6 +11,8 @@ import {MatCardModule } from '@angular/material/card';
 import {MatPaginatorModule } from '@angular/material/paginator';
 import {MatTableModule } from '@angular/material/table';
 import { FlexLayoutModule } from '@angular/flex-layout'; 
+//import { RestaurantsComponent } from 'src/app/modules/restaurants/restaurants.component';
+import { HomeComponent } from 'src/app/modules/restaurants/home/home.component';
 
 
 
@@ -19,7 +21,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     DefaultComponent,
     DashbordComponent,
     PostsComponent,
-    
+    HomeComponent
+        
   ],
   imports: [
     CommonModule,
@@ -31,6 +34,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatPaginatorModule,
     MatTableModule,
     FlexLayoutModule,
+    
   ]
 })
 export class DefaultModule { }
