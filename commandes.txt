@@ -1,0 +1,7 @@
+ng add @angular/material                                      :install angular material pachages
+npm i highcharts-angular --save                               :install angular hight chart pachages
+npm i highcharts --save 				      :install hight chart pachages
+npm i @angular/flex-layout @angular/cdk --save		      :install angular flex layouts and cdk pachages
+ng g m layouts/default					      :Create a module pour les layouts 
+ng g c modules/dashbord					      :Create a composant pour dashbord
+ng g c shared/components/header					:Create a composant header
